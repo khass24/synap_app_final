@@ -5,5 +5,6 @@ class Api::PeoplesController < ApplicationController
 
   def show
   end
-  
+
+  "hello"
 end
