@@ -7,6 +7,8 @@ class Api::PeoplesController < ApplicationController
   end
 
   def show
+    @person = Person.find(params[:id])
+    render 'show.json.jbuilder'
   end
 
 end
