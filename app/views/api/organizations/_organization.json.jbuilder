@@ -1,7 +1,4 @@
-json.id product.id
-json.name product.name
-json.job_title product.job_title
-json.email_address product.email_address
-json.phone product.phone
-json.organization_id product.organization_id
-json.address_id product.address_id
+json.name organization.organization_name
+json.domain organization.domain
+json.phone organization.organization_phone
+json.people_count organization.people_count

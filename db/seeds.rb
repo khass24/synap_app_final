@@ -13,13 +13,13 @@ csv.each do |row|
 end
 
 csv.each do |row|
-  p = Person.new
-  p.name = row['name']
-  p.job_title = row['job_title']
-  p.email_address = row['email_address']
-  p.phone = row['phone']
-  p.save
-  puts "#{p.name} saved"
+  o = Organization.new
+  o.organization_name = row['organization_name']
+  o.domain = row['domain']
+  o.organization_phone = row['organization_phone']
+  o.people_count = row['people_count']
+  o.save
+  puts "#{o.organization_name} saved"
 end
 
-puts "There are now #{Person.count} rows in the Person table"
+puts "There are now #{Organization.count} rows in the Organization table"
