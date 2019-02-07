@@ -5,7 +5,7 @@ application up and running.
 
 Hello there,
 
-Here is my best shot at creating this CRM application using Ruby 2.5.1 and Rails 5.2.2. 
+Here is my best shot at creating this CRM application using Ruby 2.5.1 and Rails 5.2.2, with a PostgreSQL database. 
 
 I understand how this app SHOULD work but I have put about 7-8 hours of research and coding into this and just can't crack the CSV importing correctly to mesh with the dependecies that I have written in i.e Organization has_many People etc. I've pored over multiple articles and videos on how to properly import the CSV into multiple models with varying dependencies, but I just couldn't crack it.
 
